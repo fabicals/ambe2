@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;1,600&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <title>AMBÉ</title>
+</head>
+<body>
+    <header class = "nav__bar">
+        <img class = "logo" src="images/ambe-logo.png" alt = "logo">
+        <a href="#" class = "toggle-button">
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+            <span class = "bar"></span>
+        </a>
+        <nav class = "nav__links">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CUSTOMIZE</a></li>
+                <li><button>CONTACT</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section aria-label="Newest Photos">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button ="prev">&lsaquo;</button>
+            <button class="carousel-button next" data-carousel-button ="next">&rsaquo;</button>
+            <ul data-slides >
+                <li class="slide" data-active>
+                    <img src="https://source.unsplash.com/3FckJXNa6dc" alt="Slide1">
+                </li>
+                <li class="slide">
+                    <img src="https://source.unsplash.com/oZMUrWFHOB4" alt="Slide2">
+                </li>
+                <li class="slide">
+                    <img src="https://source.unsplash.com/cOkpTiJMGzA" alt="Slide3">
+                </li>
+            </ul>
+        </div>
+    </section> 
+</body>
+<script src="script.js"></script>
+</html>
